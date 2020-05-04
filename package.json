@@ -1,6 +1,6 @@
 {
   "name": "recursive-encoder-decoder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a base64 recursive encoder and decoder.",
   "main": "index.js",
   "scripts": {
