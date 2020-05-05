@@ -14,7 +14,10 @@
     "base64",
     "recursive",
     "encoder",
-    "decoder"
+    "decoder",
+    "encode",
+    "decode",
+    "buffer"
   ],
   "author": "Chaaran S",
   "license": "MIT",
