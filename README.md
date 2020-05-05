@@ -11,7 +11,7 @@ $ npm install recursive-encoder-decoder
 ### Usage:
 
 ```javascript
-const base64 = require('./index.js');
+const base64 = require('recursive-encoder-decoder');
 let str = "Hello world";
 
 let encodeStr = base64.encodeRecursive(str, 10, 'ascii', true);
