@@ -1,25 +1,31 @@
 # recursive-encoder-decoder
+
 a base64 recursive encoder and decoder.
 
-Usage:
+### Installation
+Run the following command inside your project folder.
+```sh
+$ npm install recursive-encoder-decoder
+```
 
+### Usage:
+
+```javascript
 const base64 = require('./index.js');
-
 let str = "Hello world";
 
 let encodeStr = base64.encodeRecursive(str, 10, 'ascii', true);
-
-# '10' no of iterations of encoding to perform on str String with input in ascii encoding
-
 let decodeStr = base64.decodeRecursive(encodeStr, 10, 'ascii', true));
-
-# '10' no of iterations of decoding to perform on str String to input in ascii encoding
 
 if(str === decodeStr){
 console.log("Encoding Decoding in Recursion");
 }
+```
+> '10' is the no of iterations of encoding/decoding to perform on String 'str' with input/output in 'ascii' encoding
 
 
+License
+----
 
-
+MIT
 
